@@ -8,7 +8,7 @@ const Users = async () => {
   return users.map(({ id, name, last_name }) => (
     <div key={id}>
       <Link href={`/users/${id}`}>
-        I'm {name} {last_name}
+        I&apos;m {name} {last_name}
       </Link>
     </div>
   ));
