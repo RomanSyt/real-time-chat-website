@@ -1,3 +1,9 @@
+import Users from "./components/Users";
+
 export default function Home() {
-  return <main>111</main>;
+  return (
+    <main>
+      <Users />
+    </main>
+  );
 }
