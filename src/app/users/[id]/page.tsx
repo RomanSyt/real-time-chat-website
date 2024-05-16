@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { fetchUsers } from "@/lib/fetchUsers";
 import { fetchUser } from "@/lib/fetchUser";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 export const generateStaticParams = async () => {
   const users = await fetchUsers();
@@ -31,11 +32,20 @@ export const generateMetadata = async ({
 
 const UserPage = async ({ params: { id } }: Props) => {
   const [user] = await fetchUser(id);
+
   if (!user) {
     notFound();
   }
 
-  return <main>user</main>;
+  return (
+    <main>
+      <h1>
+        I'm {user.name} {user.last_name}
+      </h1>
+
+      <Link href="/users">I want to go back</Link>
+    </main>
+  );
 };
 
 export default UserPage;
