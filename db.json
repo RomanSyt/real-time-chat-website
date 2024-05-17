@@ -16,20 +16,31 @@
       "id": "31fd",
       "name": "Jim",
       "last_name": "Halpert",
-      "chats": []
+      "chats": ["0", "1"]
     },
     {
       "id": "6f32",
       "name": "Pam",
       "last_name": "Beesly",
-      "chats": []
+      "chats": ["0"]
     },
     {
       "id": "ecf3",
       "name": "Michael",
       "last_name": "Scott",
-      "chats": []
+      "chats": ["1"]
     }
   ],
-  "chats": []
+  "chats": [
+    {
+      "id": "0",
+      "title": "Jim+Pam",
+      "messages": []
+    },
+    {
+      "id": "1",
+      "title": "Work For Jim and Michael",
+      "messages": []
+    }
+  ]
 }
