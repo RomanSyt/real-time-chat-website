@@ -3,22 +3,32 @@
     {
       "id": "0",
       "name": "John",
-      "last_name": "Levine"
+      "last_name": "Levine",
+      "chats": []
     },
     {
       "id": "1",
       "name": "Dwight",
-      "last_name": "Shroot"
+      "last_name": "Shroot",
+      "chats": []
     },
     {
       "id": "31fd",
       "name": "Jim",
-      "last_name": "Halpert"
+      "last_name": "Halpert",
+      "chats": []
     },
     {
       "id": "6f32",
       "name": "Pam",
-      "last_name": "Beesly"
+      "last_name": "Beesly",
+      "chats": []
+    },
+    {
+      "id": "ecf3",
+      "name": "Michael",
+      "last_name": "Scott",
+      "chats": []
     }
   ]
 }
