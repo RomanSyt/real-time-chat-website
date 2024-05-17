@@ -1,5 +1,7 @@
 import Users from "@/app/components/Users";
 
+export const revalidate = 0;
+
 const UsersPage = () => {
   return (
     <main>
